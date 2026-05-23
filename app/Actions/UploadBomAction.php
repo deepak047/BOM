@@ -42,8 +42,8 @@ class UploadBomAction
             'bom_reference'     => $bom->bom_reference,
             'project_id'        => $projectId,
             'storage_path'      => $path
-        ])
-    ]);
+	        ])
+	    ]);
 
         // 3. Execute the Excel Import
         Excel::import(
